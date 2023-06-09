@@ -77,8 +77,8 @@ public class HelloWorld
        if(email=="S"){
            Console.WriteLine($"\nObrigado {name} por se registrar, você recebera novos emails em breve");
        }
-       else{
-           Console.WriteLine("\nOk, você não recebera emails de promoções");
+       if(email=="N"){
+           Console.WriteLine("Ok, você não vai receber novas mensagens no email");
        }
        
        Console.WriteLine("\nObrigado e volte sempre");
